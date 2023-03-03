@@ -1,5 +1,5 @@
-#E-Commerce Design Assigment
-##High Level Design
+# E-Commerce Design Assigment
+## High Level Design
 ![hld](photo/highleveldesign.png)
 Use sequence diagrams because sequence diagrams can represent high-level interactions between systems or sub-systems at a high level.
 
