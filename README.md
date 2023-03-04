@@ -18,7 +18,7 @@ function ProductOrdering(){
     UpdateDetail() + QuantityDecreasing
     }
   else {
-    (Print("Out of Stock")
+    (Print("Out of Stock"))
  }
 
 Function getPriceForQuantity(){
