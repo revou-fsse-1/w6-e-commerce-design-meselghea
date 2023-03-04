@@ -15,7 +15,7 @@ Pseudocode :
 function ProductOrdering(){ 
   do request stock + generate order detail
   if productstock is available {
-    UpdateDetail() + QuantityDecreasing
+    UpdateDetail + GetQuantity
     }
   else {
     (Print("Out of Stock"))
@@ -29,9 +29,22 @@ Function getPriceForQuantity(){
   return Customer
 }
 
-Fuction QuantityDecreasing(){
-  Void product
+function Order (OrderPaying, OrderShipping) {
+  if order success {
+    do UpdateDetail (update status order to customer);
+    do QuantityDecreasing;
+    } 
+ else order failed {
+  Print ("Sorry Payment Failed")
+  }
+ return Customer 
 }
+
+Fuction QuantityDecreasing(){
+  QuantityDecreasing = Quantity - GetQuantity
+  return database
+}
+end
 ```
 
 ## Complexity Analysis
